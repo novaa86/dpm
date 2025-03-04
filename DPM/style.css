@@ -1,0 +1,150 @@
+.bodi {
+  font-family: "Lexend", sans-serif;
+  font-size: 15px;
+
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  box-shadow: 4px 3px 12px -3px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 4px 3px 12px -3px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 4px 3px 12px -3px rgba(0, 0, 0, 0.63);
+  justify-content: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 70px; /* Sesuaikan ukuran logo */
+  margin-right: 0px;
+}
+
+.title {
+  color: #eaeaea;
+  margin-right: 480px;
+  margin-left: 20px;
+}
+
+.title h1{
+  margin-bottom: 10px;
+  width: 260px;
+  font-size: 18px;
+  display: flexbox;
+  float: left;
+}
+
+.title p {
+  font-size: 11px;
+  width: 280px;
+  margin-top: -10px;
+  display: flexbox;
+  float: left;
+}
+
+.navbar{
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+
+.navul {
+  list-style: none;
+  display: flex;
+
+}
+
+.navul li {
+  margin: 0 30px;
+  letter-spacing: 0.5px;
+}
+
+.navul li a {   
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  position: relative;
+  right: 90px;
+}
+
+.navul li a:hover {
+  background-color: #5d5d5d;
+  animation-delay: 0.5s;
+}
+
+.main {
+  
+  width: 680px;
+  margin: 100px;
+  display: flexbox;
+  box-sizing: border-box;
+  float: left;
+  text-align: justify;
+  position: relative;
+  margin-top: 80px;
+}
+
+.main h4{
+  text-indent: 25px;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+
+.main h2{
+  font-size: 45px;
+  margin-top: -17px;
+}
+
+.main p{
+  font-size: 17px;
+}
+
+.sidebar {
+  margin: 100px;
+  float: left;
+  margin: 60px;
+}
+
+.sidebar img {
+  height: 400px;
+}
+
+.section{
+  width: 570px;
+  padding: 20px;
+  margin: 100px;
+  margin-top: 370px;
+  position: absolute;
+  float: left;
+}
+
+form {
+  float: inline-start;
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  margin-bottom: 10px;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background-color: #0a2730;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

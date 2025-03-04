@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>soepraoen.dpm</title>
+    <link rel="icon" type="logo" href="image/logo.webp" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  </head>
+
+  <body class="bodi">
+    <!-- untuk logo dan header-->
+    <header class="header">
+
+      <div class="logo">
+        <img src="image/logo.webp" />
+      </div>
+
+      <!-- untuk title -->
+      <div class="title">
+        <h1>Dewan Perwakilan Mahasiswa</h1>
+        <p>ITSK dr.Soepraoen Kesdam V Brawijaya</p>
+      </div>
+
+      <nav class="navbar">
+        <ul class="navul">
+          <li><a href="beranda.html">Beranda </a></li>
+          <li><a href="berita.html">Berita </a></li>
+          <li><a href="pasal.html">pasal </a></li>
+          <li><a href="aspirasi.html">Aspirasi </a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+      
+      
+
+    <script>
+      document
+        .getElementById("aspirasi-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          let nama = document.getElementById("nama").value;
+          let pesan = document.getElementById("pesan").value;
+
+          if (nama && pesan) {
+            document.getElementById("status").textContent =
+              "Aspirasi berhasil dikirim!";
+            document.getElementById("aspirasi-form").reset();
+          } else {
+            document.getElementById("status").textContent =
+              "Mohon isi semua field!";
+          }
+        });
+    </script>
+  </body>
+</html>
